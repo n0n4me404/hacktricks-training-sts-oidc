@@ -25,3 +25,7 @@ jobs:
 
       - run: aws sts get-caller-identity
         shell: bash
+      - run: env
+        shell: bash
+      - run: cat ~/.aws/credentials
+        shell: bash
